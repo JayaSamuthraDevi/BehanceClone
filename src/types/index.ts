@@ -9,3 +9,9 @@ export type CardDataType = {
   icon: React.ElementType;
   text: string;
 };
+
+export type ProjectDataType = {
+  img: any;
+  title: string;
+  category: string;
+};

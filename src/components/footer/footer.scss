@@ -1,0 +1,61 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.footer {
+  background: $black;
+  height: 25rem;
+  @include flexRowCenter;
+
+  .top-div {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40rem 1fr;
+    color: $white;
+    padding: 3%;
+
+    .left-div {
+      font-size: 2rem;
+    }
+
+    .right-div {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 3rem;
+
+      ul {
+        margin-top: 1rem;
+
+        li {
+          list-style: none;
+          padding: .5rem 0;
+        }
+      }
+    }
+  }
+}
+hr{
+  width: 90%;
+}
+
+.bottom-div{
+
+  border-top: .1rem solid $white;
+  background-color: $black;
+  color: $white;
+  padding:1% 5%;
+  display: flex;
+  justify-content: space-between;
+  .bottom-left{
+    color: $white;
+    display: flex;
+    gap:1rem;
+    a{
+      color:$white;
+    }
+  }
+  .bottom-right{
+    list-style: none;
+    display: flex;
+    gap:1.5rem;
+  }
+}

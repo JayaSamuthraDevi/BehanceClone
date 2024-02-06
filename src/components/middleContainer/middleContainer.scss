@@ -1,0 +1,9 @@
+.middle-container{
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns:20rem 1fr;
+
+  @media screen and (max-width: 976px){
+    grid-template-columns:10rem 1fr;
+  }
+}

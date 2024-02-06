@@ -21,3 +21,12 @@
   background: $btn-color;
   color: $white;
 }
+.filter-btn{
+  width: 100%;
+  color:$black;
+  border: .1rem solid $primary;
+  background: $white;
+  &:hover{
+    background-color: $light-btn  ;
+  }
+}
