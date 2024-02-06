@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.button_style {
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  padding: 4%;
+  margin: .5rem;
+  font-weight: 600;
+  color: $btn-color;
+  background: $light-btn;
+  border: 1rem solid $light-btn;
+  border-radius: 5rem;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+}
+
+.active {
+  background: $btn-color;
+  color: $white;
+}

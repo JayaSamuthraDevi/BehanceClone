@@ -8,7 +8,5 @@ Use the following command to create a new React application configured to use Ty
 ```npx create-react-app <your-project-name> --template ```
 This command scaffolds a React project with a TypeScript template, setting up a development environment that supports TypeScript out of the box.
 ## Packages Used
-- **react-router-dom**
-A library that enables dynamic routing in a web application, allowing you to create navigable pages.
 - **sass**
 A preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS), providing enhanced stylesheets with variables, nested rules, and more.
