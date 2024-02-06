@@ -1,0 +1,23 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border-right: .1rem solid $grey;
+  padding: 1rem;
+  width: 100%;
+
+
+  .filter-div{
+    display: flex;
+    gap:1rem;
+    font-size: 1.7rem;
+  }
+  .filter-options{
+    width: 94%;
+  }
+}
